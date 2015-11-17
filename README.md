@@ -25,7 +25,7 @@ const schema = {
 import getSchema from 'datomic-schema';
 
 getSchema('http://localhost:8001', 'dev/mbrainz-1968-1973')
-  .then(schema => console.log(schema);
+  .then(schema => console.log(schema));
   // > { AbstractRelease:
   //    { type:
   //       { type: 'ref',
